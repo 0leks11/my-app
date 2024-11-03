@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Sqwares } from "./components/Sqwares";
+import { Squares } from "./components/Squares";
 
 export default function Home() {
   return (
@@ -49,7 +49,7 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-        <Sqwares />
+        <Squares />
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
